@@ -19,6 +19,8 @@
           <th scope="col">Estado</th>
           <th scope="col">consecutivo</th>
           <th scope="col">categoria</th>
+          <th scope="col">presupuesto</th>
+          <th scope="col">Cantidad </th>
         
         </tr>
       </thead>
@@ -29,6 +31,8 @@
           <td>{{cliente.estado}}</td>
           <td >{{cliente.consecutivo}}</td>
           <td >{{cliente["cpr_detalle_ficha"].categoria}}</td>
+          <td >{{cliente["cpr_detalle_ficha"].presupuesto}}</td>
+          <td >{{cliente["cpr_detalle_ficha"].cantidad}}</td>
           
         </tr>
       </tbody>

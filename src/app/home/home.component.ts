@@ -16,6 +16,7 @@ export class HomeComponent implements OnInit {
     httpClient.get(this.API_POINT + '/cliente').subscribe( (data: Cliente[]) => {
       this.clientess = data;
       console.log(this.clientess[0]["cpr_detalle_ficha"].categoria)
+      console.log(this.clientess[0]["cpr_detalle_ficha"])
     }
     );
   }
